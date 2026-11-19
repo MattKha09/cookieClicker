@@ -12,3 +12,19 @@ const kaka = document.getElementById("kaka")
 
 const kaka = document.getElementById("kaka")
 const kaka = document.getElementById("kaka")
+
+function uppdatetxt() {
+    
+    cookieText.textContent = "Kakor: " +cookies;
+    clickText.textContent = "Kakor per klick: " +clickPower;
+    autoText.textContent = "Auto click: " +autoClickers;
+    upgradeClick.textContent = "Starkare klick - kostar: " +clickCost + "kakor";
+    buyAuto.textContent = "Köp auto clicker - kostar: " +autocost + "kakor";
+}
+
+kaka.addEventlistener("click", function(){
+    cookies = cookies + clickPower
+
+    uppdatetxt();
+
+});
