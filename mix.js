@@ -38,7 +38,7 @@ upgradeClick.addEventListener("click", function(){
     if (cookies>=clickupg){
         cookies = cookies - clickupg;
 
-        clickPower++;
+        clickPower= clickPower *2;
 
         clickupg = clickupg * 2;
 
@@ -52,7 +52,7 @@ buyAuto.addEventListener("click", function(){
        
         cookies = cookies - autoclickupg;
 
-        autoclick++;
+        autoclick = (autoclick + 1) *2;
         
         autoclickupg = autoclickupg * 2;
 

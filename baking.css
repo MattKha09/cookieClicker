@@ -1,0 +1,21 @@
+body {
+    background-color: #302016;
+    font-family: Arial;
+    color: white;
+    margin: 0;
+}
+
+#kaka {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#kaka img {
+    width: 220px;
+    transition: 0.2s;
+}
+
+#kaka:hover img {
+    transform: scale(1.08);
+}
