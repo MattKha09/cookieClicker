@@ -15,15 +15,15 @@ const buyAuto= document.getElementById("Autokak")
 
 function uppdatetxt() {
     
-    cookieText.textContent = "Kakor: " +cookies;
+    cookieText.textContent = "Mustafa: " +cookies;
    
-    clickText.textContent = "Kakor per klick: " +clickPower;
+    clickText.textContent = "Mustafa per klick: " +clickPower;
    
-    autoText.textContent = "Kakor per secund: " +autoclick;
+    autoText.textContent = "Mustafa per secund: " +autoclick;
    
-    upgradeClick.textContent = "Workout + 1: " +clickupg + "kakor";
+    upgradeClick.textContent = "Workout + 1: " +clickupg + " Mustafa";
     
-    buyAuto.textContent = "Farmor klickar åt dig +1: " +autoclickupg + "kakor";
+    buyAuto.textContent = "Farmor klickar åt dig +1: " +autoclickupg + " Mustafa";
 }
 
 kaka.addEventListener("click", function(){
